@@ -1,0 +1,37 @@
+.newpost{
+
+}
+.text{
+
+    margin:10px 10px 10px 25%;
+    grid-area: description;
+    border-radius: 50px;
+    background: #effafa;
+    box-shadow:  6px 6px 12px #b1b9b9,
+    -6px -6px 12px #ffffff;
+    padding: 13px;
+    height: auto;
+    width: 50%;
+}
+.text textarea{
+    text-align: center;
+    border: none;
+    background-color: #effafa;
+    resize: none;
+    height: 90%;
+    width: 98%;
+}
+.button {
+    text-align: center;
+
+}
+.button button{
+    text-align: center;
+    margin: 10px;
+    height: 3em;
+    width: 8em;
+    border-radius: 19px;
+    background: linear-gradient(145deg, #018fa6, #01798c);
+    box-shadow:  5px 5px 12px #018296,
+    -5px -5px 12px #018aa0;
+}

@@ -1,0 +1,19 @@
+html{
+  background-color: #effafa;
+  margin-left: 0px ;
+}
+.wrapper{
+  display: grid;
+  grid-template-areas:
+"header header"
+"nav mainPage";
+  grid-template-rows: 45px 1fr ;
+  grid-template-columns: 1fr 10fr;
+}
+
+.mainPage{
+  grid-area: mainPage;
+}
+
+
+

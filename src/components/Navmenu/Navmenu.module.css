@@ -1,0 +1,27 @@
+.navmenu{
+    grid-area: nav;
+    background-color: #01869b;
+}
+.navmenu .name {
+    color: #ffffff;
+    display:inline-block;
+    text-decoration: none;
+    margin: 10px 0 0 20px;
+    text-align: center;
+
+    padding: 5px 10px 5px 10px;
+    font-size: large;
+
+    border-radius: 31px;
+    background: linear-gradient(145deg, #01798c, #018fa6);
+    box-shadow:  5px 5px 5px #017688,
+    -5px -5px 5px #0196ae;
+}
+.navmenu a.active{
+    color: aqua;
+
+    border-radius: 31px;
+    background: #01869b;
+    box-shadow: inset 5px 5px 5px #017688,
+    inset -5px -5px 5px #0196ae;
+}

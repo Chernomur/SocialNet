@@ -1,0 +1,25 @@
+.friends{
+    display: grid;
+    grid-template-areas:
+            'h h h'
+            'friend friend friend';
+    grid-template-rows: 2fr 3fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin: 30px 2px 0 2px;
+    border-radius: 15px;
+    background: #01869B;
+    box-shadow: inset 13px 13px 25px #017284,
+    inset -13px -13px 25px #019ab2;
+}
+.h{
+    grid-area: h;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+Friend{
+    grid-area: friend;
+}

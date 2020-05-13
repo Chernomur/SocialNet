@@ -1,0 +1,42 @@
+.dialogsItem{
+    display: grid;
+    grid-template-areas: "avatar name";
+    grid-template-columns: 2fr 5fr;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #d6e0e0, #ffffff);
+    box-shadow:  5px 5px 5px #5f6464,
+    -5px -5px 5px #ffffff;
+    margin: 5px ;
+}
+
+.name{
+    margin: 15px;
+    padding: 10px;
+    grid-area: name;
+    border-radius: 10px;
+
+}
+.name a{
+
+    text-decoration: none;
+    font-size: x-large;
+    color: #02869b;
+}
+
+.name a.active{
+    color: black;
+}
+.avatar{
+    grid-area: avatar;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.avatar img{
+
+    padding: 8px 5px 5px 5px ;
+    object-fit: cover;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+}

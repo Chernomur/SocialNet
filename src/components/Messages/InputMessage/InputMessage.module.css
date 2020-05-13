@@ -1,0 +1,43 @@
+.newMessage{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "message button";
+}
+
+
+.message{
+    grid-area: message;
+    margin-left: 20px;
+    border-radius: 50px;
+    background: #effafa;
+    box-shadow:  6px 6px 12px #018296,
+    -6px -6px 12px #018aa0;
+    padding: 13px;
+    height: 80%;
+    width: 95%;
+}
+.message textarea{
+    font-size: large;
+    border: none;
+    background-color: #effafa;
+    resize: none;
+    height: 90%;
+    width: 98%;
+
+}
+
+.button{
+    grid-area: button;
+
+}
+.button button{
+    height: 80%;
+    width: 80%;
+    text-align: center;
+    margin: 15px;
+
+    border-radius: 19px;
+    background: linear-gradient(145deg, #018fa6, #01798c);
+    box-shadow:  5px 5px 12px #018296,
+    -5px -5px 12px #018aa0;
+}

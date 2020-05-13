@@ -1,0 +1,26 @@
+.friends{
+    display: grid;
+    grid-template-areas:
+            'avatar'
+            'name';
+    grid-template-rows: 1fr 1fr ;
+
+}
+.avatar{
+    grid-area: avatar;
+
+}
+.avatar img {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+}
+
+.name{
+    grid-area: name;
+    font-size: x-small;
+}
+.aname{
+text-decoration: none;
+    color: white;
+}

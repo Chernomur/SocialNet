@@ -1,0 +1,22 @@
+.post{
+    display: grid;
+    grid-template-areas:
+    "avatar textpost";
+    grid-template-columns: 1fr 1fr;
+
+    margin: 10px ;
+}
+
+.avatar{
+    grid-area: avatar;
+    text-align: center;
+}
+.avatar img{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+}
+.textpost{
+    grid-area: textpost;
+
+}
